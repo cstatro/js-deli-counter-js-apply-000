@@ -30,6 +30,6 @@ function currentLine(deliLine){
       }
     }
 
-    return deliLine
+    return lineStatus
   }
 }
