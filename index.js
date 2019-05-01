@@ -14,3 +14,9 @@ function nowServing (deliLine){
     return `Currently serving ${currentPatron}.`
   }
 }
+
+function currentLine(deliLine){
+  if (deliLine.length === 0){
+    return "The line is currently empty."
+  }
+}
