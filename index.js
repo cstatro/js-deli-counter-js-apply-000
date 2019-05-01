@@ -29,7 +29,6 @@ function currentLine(deliLine){
         lineStatus += ` ${i+1}. ${deliLine[i]},`
       }
     }
-
-    return lineStatus
+  return lineStatus
   }
 }
