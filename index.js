@@ -1,6 +1,6 @@
 var katzDeliLine = []
 
-function takeAnumber(deliLine,deliPatron){
+function takeANumber(deliLine,deliPatron){
   deliLine.push(deliPatron)
 
 
