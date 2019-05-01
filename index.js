@@ -7,10 +7,10 @@ function takeANumber(deliLine,deliPatron){
 
 function nowServing (deliLine){
   if (deliLine.length === 0){
-    return "the line is empty!"
+    return "There is nobody waiting to be served!"
   }
   else {
     let currentPatron = deliLine.shift()
-    return `Now serving ${currentPatron}.`
+    return `Currently serving ${currentPatron}.`
   }
 }
