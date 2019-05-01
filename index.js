@@ -16,10 +16,20 @@ function nowServing (deliLine){
 }
 
 function currentLine(deliLine){
+  let lineStatus = "The line is currently:"
   if (deliLine.length === 0){
     return "The line is currently empty."
   }
   else{
+    for (var i = 0; i < deliLine.length;i++){
+      if (i === (deliLine.length -1)){
+        lineStatus += ` ${i+1}. ${deliLine[i]}`
+      }
+      else{
+        lineStatus += ` ${i+1}. ${deliLine[i]},`
+      }
+    }
+
     return deliLine
   }
 }
