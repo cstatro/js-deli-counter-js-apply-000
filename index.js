@@ -1,5 +1,3 @@
-var katzDeliLine = []
-
 function takeANumber(deliLine,deliPatron){
   deliLine.push(deliPatron)
   return `Welcome, ${deliPatron}. You are number ${deliLine.length} in line.`
@@ -22,7 +20,7 @@ function currentLine(deliLine){
   }
   else{
     for (var i = 0; i < deliLine.length;i++){
-      if (i === (deliLine.length -1)){
+      if (i === (deliLine.length - 1)){
         lineStatus += ` ${i+1}. ${deliLine[i]}`
       }
       else{
